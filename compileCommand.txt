@@ -1,0 +1,1 @@
+traceur --out build/compiled.js src/BaseClass.js src/SubClass.js src/main.js --source-maps --modules=amd

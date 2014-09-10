@@ -1,0 +1,22 @@
+{
+  "name": "ES6_Workflow",
+  "version": "1.0.0",
+  "description": "A workflow to use ES6 in production",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://domrein@github.com/domrein/ES6_Workflow.git"
+  },
+  "author": "Paul Milham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domrein/ES6_Workflow/issues"
+  },
+  "homepage": "https://github.com/domrein/ES6_Workflow",
+  "dependencies": {
+    "traceur": "0.0.58"
+  }
+}
