@@ -1,6 +1,5 @@
-define("../src/BaseClass", [], function() {
+define([], function() {
   "use strict";
-  var __moduleName = "../src/BaseClass";
   var BaseClass = function BaseClass() {
     this.name = "BaseClass";
   };
@@ -15,12 +14,13 @@ define("../src/BaseClass", [], function() {
     __esModule: true
   };
 });
-define("../src/SubClass", ["./BaseClass"], function($__1) {
+//
+
+define(["./BaseClass"], function($__0) {
   "use strict";
-  var __moduleName = "../src/SubClass";
-  if (!$__1 || !$__1.__esModule)
-    $__1 = {default: $__1};
-  var BaseClass = $__1.default;
+  if (!$__0 || !$__0.__esModule)
+    $__0 = {'default': $__0};
+  var BaseClass = $__0.default;
   var SubClass = function SubClass() {
     $traceurRuntime.superCall(this, $SubClass.prototype, "constructor", []);
     this.name = "SubClass";
@@ -35,12 +35,13 @@ define("../src/SubClass", ["./BaseClass"], function($__1) {
     __esModule: true
   };
 });
-define("../src/main", ["./SubClass"], function($__4) {
+//
+
+define(["./SubClass"], function($__0) {
   "use strict";
-  var __moduleName = "../src/main";
-  if (!$__4 || !$__4.__esModule)
-    $__4 = {default: $__4};
-  var SubClass = $__4.default;
+  if (!$__0 || !$__0.__esModule)
+    $__0 = {'default': $__0};
+  var SubClass = $__0.default;
   function init() {
     var blah = new SubClass();
     blah.speak();
@@ -53,5 +54,6 @@ define("../src/main", ["./SubClass"], function($__4) {
     __esModule: true
   };
 });
+//
 
-//# sourceMappingURL=compiled.map
+//# sourceMappingURL=game.js.map

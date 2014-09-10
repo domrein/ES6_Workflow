@@ -1,0 +1,40 @@
+{
+  "version": 3,
+  "file": "game.js",
+  "sources": [
+    "@traceur/generated/TemplateParser/5",
+    "@traceur/generated/TemplateParser/4",
+    "@traceur/generated/TemplateParser/6",
+    "src/BaseClass.js",
+    "@traceur/generated/TemplateParser/7",
+    "@traceur/generated/TemplateParser/0",
+    "@traceur/generated/TemplateParser/3",
+    "@traceur/generated/TemplateParser/1",
+    "@traceur/generated/TemplateParser/2",
+    "@traceur/generated/TemplateParser/8",
+    "@traceur/generated/TemplateParser/9",
+    "src/SubClass.js",
+    "@traceur/generated/TemplateParser/11",
+    "@traceur/generated/TemplateParser/10",
+    "src/main.js"
+  ],
+  "names": [],
+  "mappings": "AAAA;ACAyB;ACAzB;ACEI;AAAuB;ACF3B;ADMI;AAA2C;AEN3C;ACAJ;ACAA;AAA0B;AAAwB;ACAlD;AAAe;APEX;AEOJ;A;AHTA;ACAyB;AQAzB;AACY;AAAmD;APD3D;AQAJ;ACKI;AAAsB;ACLtB;ACAJ;ARAI;ACAJ;ACAA;AAA0B;AAAwB;ACAlD;AAAe;APEX;AUMJ;A;AXRA;ACAyB;AQAzB;AACY;AAAmD;AKChD;AACb;AACA;AAAY;ATJV;ACAJ;ACAA;AAA0B;AAAwB;ACAlD;AAAe;APEX;AaMJ;A",
+  "sourcesContent": [
+    "define($__placeholder__0, $__placeholder__1);",
+    "function($__placeholder__0) {\n      $__placeholder__1\n    }",
+    "var $__placeholder__0 = $__placeholder__1",
+    "export default class BaseClass {\n  constructor() {\n    this.name = \"BaseClass\";\n  }\n  \n  speak() {\n    console.log(`Hi! My name is ${this.name}!`);\n  }\n}\n",
+    "($traceurRuntime.createClass)($__placeholder__0, $__placeholder__1, $__placeholder__2)",
+    "var $__default = $__placeholder__0",
+    "return $__placeholder__0",
+    "get $__placeholder__0() { return $__placeholder__1; }",
+    "__esModule: true",
+    "if (!$__placeholder__0 || !$__placeholder__1.__esModule)\n            $__placeholder__2 = { 'default': $__placeholder__3 }",
+    "$traceurRuntime.superCall($__placeholder__0, $__placeholder__1, $__placeholder__2,\n                                   $__placeholder__3)",
+    "import BaseClass from \"./BaseClass\";\n\nexport default class SubClass extends BaseClass {\n  constructor() {\n    super();\n    this.name = \"SubClass\";\n  }\n}\n",
+    "var $__placeholder__0 = $__placeholder__1",
+    "($traceurRuntime.createClass)($__placeholder__0, $__placeholder__1, $__placeholder__2,\n                                       $__placeholder__3)",
+    "import SubClass from \"./SubClass\";\n\nexport default function init() {\n  var blah = new SubClass();\n  blah.speak();\n  // console.log(\"sjdofijasdfojdsi\");\n  // var foo = new SubClass();\n  // foo.speak();\n}"
+  ]
+}
